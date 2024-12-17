@@ -50,14 +50,64 @@ const Second = () => {
         className="p-2 text-xl text-purple-800 
       stroke-black-1000"
       >
-        Flex Direction
+        Flex Direction (Row )
       </h1>
-      <div className="flex flex-row p-1 m-1">
-        <div>01</div>
-        <div>02</div>
-        <div>03</div>
+      <div className="flex flex-row md:flex-flex-wrap p-1 m-1 gap-6">
+        <div
+          className="bg-pink-500 border-2 border-black w-32
+          text-center "
+        >
+          01
+        </div>
+        <div
+          className="bg-pink-500 border-2 border-black w-32
+          text-center "
+        >
+          03
+        </div>
+        <div
+          className="bg-pink-500 border-2 border-black w-32
+          text-center "
+        >
+          04
+        </div>
+        <div
+          className="bg-pink-500 border-2 border-black w-32
+          text-center "
+        >
+          05
+        </div>
+        <div
+          className="bg-pink-500 border-2 border-black w-32
+          text-center "
+        >
+          06
+        </div>
+        <div
+          className="bg-pink-500 border-2 border-black w-32
+          text-center "
+        >
+          07
+        </div>
       </div>
-
+      <hr className="border-none outline-none h-0.5 m-auto bg-black" />
+      <h1
+        className="p-2 text-xl text-purple-800 
+      stroke-black-1000"
+      >
+        Flex Direction (Column)
+      </h1>
+      <div className="flex flex-col gap-2 m-1 p-1">
+        <div className="hover:bg-red-500 border-2 border-b bg-purple-700 w-20 text-center ">
+          02
+        </div>
+        <div className="border-2 border-b bg-purple-700 w-20 text-center ">
+          01
+        </div>
+        <div className="border-2 border-b bg-purple-700 w-20 text-center ">
+          03
+        </div>
+      </div>
       <br />
       <br />
       <br />
