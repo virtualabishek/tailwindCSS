@@ -13,8 +13,12 @@ const First = () => {
         <hr className="bg-black" />
       </div>
       <hr className="border-none outline-none h-0.5 bg-black m-auto" />
-      <div>
+      <div className="grid">
         <p className="text-3xl px-2">Hi! I am Abinash Neupane!</p>
+        <p className="px-2 m-2">
+          I am a banker at Nepal. I am very positive in nature.
+        </p>
+        {/* <img className="w-30" src={brotherPic} alt="Photo of Abinash" /> */}
       </div>
     </>
   );
