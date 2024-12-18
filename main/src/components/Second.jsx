@@ -108,6 +108,35 @@ const Second = () => {
           03
         </div>
       </div>
+      <hr className="border-none outline-none h-0.5 m-auto bg-black" />
+      <div className="flex gap-3 p-1 m-1">
+        <div
+          className="flex-none border-2 border-black bg-blue-500 w-14 text-center h-10
+        hover:bg-green-200"
+        >
+          01
+        </div>
+        <div
+          className="flex-none border-2 border-black bg-blue-500 w-32 text-center h-10
+        hover:grow-0"
+        >
+          01
+        </div>
+        <div
+          className=" flex-auto border-2 border-black bg-blue-500 w-32 text-center h-10
+        hover:grow-0"
+        >
+          01
+        </div>
+      </div>
+      <hr className="border-none outline-none h-0.5 m-auto bg-black" />
+      <h1
+        className="p-2 text-xl text-purple-800 
+      stroke-black-1000"
+      >
+        Flex Order
+      </h1>
+
       <br />
       <br />
       <br />
